@@ -100,6 +100,8 @@ body{
 	background-position:left bottom;
 	padding:0 40px 20px 20px;
 	overflow:auto;
+	/* === IE6 Hank === */
+	_height:1%;
 }
 
 /* ====== content_info ====== */
@@ -167,8 +169,13 @@ body{
 	background-image:url(images/content_Nav04.jpg);
 }
 
-/* ====== 標題區 ====== */
-
-/* ====== 標題區 ====== */
-
-/* ====== 標題區 ====== */
+/* ====== 版權宣告區 ====== */
+#footer{
+	clear:both;
+	background-image:url(images/foot_bg.gif);
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	color:#300;
+}
+#footer h4{}
