@@ -2,4 +2,82 @@
 /* CSS Document */
 
 *{
-	}
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(images/body_bg.gif);
+}
+
+#wrapper{
+	width:980px;
+	margin:0 auto;
+	background-color:#fbde86;
+}
+
+/* ====== 標題區 ====== */
+#header{
+	background-image:url(images/header_banner.jpg);
+	height:170px;
+	padding-top:80px;
+}
+#header h1{
+	background-image:url(images/FLC_logo.gif);
+	width:170px;
+	height:50px;
+	text-indent:-9999px;
+}
+
+/* ====== 選單區 ====== */
+#mainNav{
+	width:200px;
+	float:left;
+}
+#mainNav h3{
+	background-image:url(images/mainNav_menu.gif);
+	width:200px;
+	height:100px;
+	text-indent:-9999px;
+}
+#mainNav ul{}
+#mainNav li{
+	list-style-type:none;
+}
+#mainNav li a{
+	display:block;
+	width:160px;
+	height:50px;
+	text-indent:-9999px;
+	margin:0 auto;
+}
+#mainNav li.aboutus a{
+	background-image:url(images/icon_aboutus.gif);
+}
+#mainNav li.news a{
+	background-image:url(images/icon_news.gif);
+}
+#mainNav li.products a{
+	background-image:url(images/icon_products.gif);
+}
+#mainNav li.materials a{
+	background-image:url(images/icon_materials.gif);
+}
+#mainNav li.groupbuy a{
+	background-image:url(images/icon_groupbuy.gif);
+}
+#mainNav li.contact a{
+	background-image:url(images/icon_contact.gif);
+}
+#mainNav p{
+	text-align:center;
+}
+#mainNav img{}
+
+/* ====== 標題區 ====== */
+
+/* ====== 標題區 ====== */
+
+/* ====== 標題區 ====== */
+
+/* ====== 標題區 ====== */
